@@ -4,7 +4,7 @@ pipeline {
     environment {
         CONTAINER_NAME = "nestjs-app"
         IMAGE_NAME = "nesths-image"
-        EMAIL = "techzeen10@gmail.com"
+        EMAIL = "tariqareeba280@gmail.com"
         PORT = "3000"
     }
 
@@ -12,7 +12,7 @@ pipeline {
 
         stage('Clone Repo'){
             steps{
-                git branch: 'main', url: 'https://github.com/farzeen-ali/CI-CD-Pipeline-Using-Jenkins-GitHub-Webhook-Ubuntu-AWS-EC2-Docker.git'
+                git branch: 'main', url: 'https://github.com/tariqareeba280-pixel/nestApp.git'
             }
         }
 
